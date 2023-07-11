@@ -1,0 +1,1169 @@
+   Input file: runphreeqc.txt
+  Output file: out.txt
+Database file: Marsac2017EuIIIsolids.dat
+
+------------------
+Reading data base.
+------------------
+
+	SOLUTION_MASTER_SPECIES
+	SOLUTION_SPECIES
+	SOLUTION_SPECIES
+	PHASES
+	PHASES
+	SURFACE_MASTER_SPECIES
+	SURFACE_SPECIES
+	END
+------------------------------------
+Reading input data for simulation 1.
+------------------------------------
+
+	SOLUTION_SPECIES
+	H2O + 0.01e- = H2O-0.01
+	log_k   -9.0
+	SOLUTION 1
+	       pe      8.75
+	       pH      12
+	       temp      25
+	units mol/kgw
+	Eu 0.001 
+	Na 0.000156 
+	Cl 0.000578 
+	N(+5) 0.003 
+	C(+4) 1e-13 
+	S(6) 0.00025 
+	Ca 0.00025 
+	Mg 0.00025 
+	KNOBS
+	iterations 200
+	EQUILIBRIUM_PHASES 1
+	Eu(OH)3   0.0   0
+	Eu2(CO3)3:3H2O   0.0   0
+	Eu(NO3)3:6H2O   0.0   0
+	Eu(OH)2.5Cl.5   0.0   0
+	Eu(OH)2Cl   0.0   0
+	Eu2O3(cubic)   0.0   0
+	Eu2O3(monoclinic)   0.0   0
+	EuOCl   0.0   0
+	EuCl3   0.0   0
+	EuOHCO3   0.0   0
+	Calcite   0.0   0
+	Dolomite(disordered)   0.0   0
+	Magnesite   0.0   0
+	       Fix_H+ -12          NaOH 10.0
+	force_equality true
+	       Fix_pe -8.75          O2
+	force_equality true
+	SURFACE 1
+	Ha_aH 1.48e-06 1000000 0.004 
+	Ha_bH 1.48e-06 
+	Ha_cH 1.48e-06 
+	Ha_dH 1.48e-06 
+	Ha_eH 7.4e-07 
+	Ha_fH 7.4e-07 
+	Ha_gH 7.4e-07 
+	Ha_hH 7.4e-07 
+	Ha_abH2 7.64e-07 
+	Ha_cdH2 7.64e-07 
+	Ha_aeH2 7.64e-07 
+	Ha_bfH2 7.64e-07 
+	Ha_cgH2 7.64e-07 
+	Ha_dhH2 7.64e-07 
+	Ha_abxH2 7.64e-08 
+	Ha_cdxH2 7.64e-08 
+	Ha_aexH2 7.64e-08 
+	Ha_bfxH2 7.64e-08 
+	Ha_cgxH2 7.64e-08 
+	Ha_dhxH2 7.64e-08 
+	Ha_abxxH2 7.64e-09 
+	Ha_cdxxH2 7.64e-09 
+	Ha_aexxH2 7.64e-09 
+	Ha_bfxxH2 7.64e-09 
+	Ha_cgxxH2 7.64e-09 
+	Ha_dhxxH2 7.64e-09 
+	Ha_abeH3 4.96e-08 
+	Ha_abfH3 4.96e-08 
+	Ha_abgH3 4.96e-08 
+	Ha_abhH3 4.96e-08 
+	Ha_cdeH3 4.96e-08 
+	Ha_cdfH3 4.96e-08 
+	Ha_cdgH3 4.96e-08 
+	Ha_cdhH3 4.96e-08 
+	Ha_abeyH3 4.96e-09 
+	Ha_abfyH3 4.96e-09 
+	Ha_abgyH3 4.96e-09 
+	Ha_abhyH3 4.96e-09 
+	Ha_cdeyH3 4.96e-09 
+	Ha_cdfyH3 4.96e-09 
+	Ha_cdgyH3 4.96e-09 
+	Ha_cdhyH3 4.96e-09 
+	Ha_abeyyH3 4.96e-10 
+	Ha_abfyyH3 4.96e-10 
+	Ha_abgyyH3 4.96e-10 
+	Ha_abhyyH3 4.96e-10 
+	Ha_cdeyyH3 4.96e-10 
+	Ha_cdfyyH3 4.96e-10 
+	Ha_cdgyyH3 4.96e-10 
+	Ha_cdhyyH3 4.96e-10 
+	cd_music 
+	capacitances 0.0035137 1e5 
+	SELECTED_OUTPUT
+	file selected.out
+	selected_out true
+	user_punch true
+	high_precision true
+	reset false
+	simulation false
+	state false
+	distance false
+	time false
+	step false
+	ph false
+	pe false
+	reaction false
+	temperature false
+	alkalinity false
+	ionic_strength false
+	water false
+	charge_balance false
+	percent_error false
+	molalities Ha_aEu+2 Ha_bEu+2 Ha_cEu+2 Ha_dEu+2 Ha_eEu+2 Ha_fEu+2 Ha_gEu+2 Ha_hEu+2 Ha_abEu+ Ha_cdEu+ Ha_aeEu+ Ha_bfEu+ Ha_cgEu+ Ha_dhEu+ Ha_abxEu+ Ha_cdxEu+ Ha_aexEu+ Ha_bfxEu+ Ha_cgxEu+ Ha_dhxEu+ Ha_abxxEu+ Ha_cdxxEu+ Ha_aexxEu+ Ha_bfxxEu+ Ha_cgxxEu+ Ha_dhxxEu+ Ha_abeEu Ha_abfEu Ha_abgEu Ha_abhEu Ha_cdeEu Ha_cdfEu Ha_cdgEu Ha_cdhEu Ha_abeyEu Ha_abfyEu Ha_abgyEu Ha_abhyEu Ha_cdeyEu Ha_cdfyEu Ha_cdgyEu Ha_cdhyEu Ha_abeyyEu Ha_abfyyEu Ha_abgyyEu Ha_abhyyEu Ha_cdeyyEu Ha_cdfyyEu Ha_cdgyyEu Ha_cdhyyEu Eu+3  
+	equilibrium_phases Eu(OH)3  Eu2(CO3)3:3H2O  Eu(NO3)3:6H2O  Eu(OH)2.5Cl.5  Eu(OH)2Cl  Eu2O3(cubic)  Eu2O3(monoclinic)  EuOCl  EuCl3  EuOHCO3  Calcite  Dolomite(disordered)  Magnesite  
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 1.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	C(4)              1.000e-13   1.000e-13
+	Ca                2.500e-04   2.500e-04
+	Cl                5.780e-04   5.780e-04
+	Eu                1.000e-03   1.000e-03
+	Mg                2.500e-04   2.500e-04
+	N(5)              3.000e-03   3.000e-03
+	Na                1.560e-04   1.560e-04
+	S(6)              2.500e-04   2.500e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =  12.000    
+                                       pe  =   8.750    
+                        Activity of water  =   1.000
+                 Ionic strength (mol/kgw)  =   1.062e-02
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   1.243e-02
+                       Total CO2 (mol/kg)  =   1.000e-13
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =  -1.235e-02
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -67.86
+                               Iterations  =   5
+                                  Total H  = 1.110261e+02
+                                  Total O  = 5.553128e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma    cm³/mol
+
+   OH-             1.122e-02   1.007e-02    -1.950    -1.997    -0.047     (0)  
+   H2O-0.01        8.173e-10   8.173e-10    -9.088    -9.088    -0.000     (0)  
+   H+              1.112e-12   1.000e-12   -11.954   -12.000    -0.046      0.00
+   H2O             5.551e+01   9.997e-01     1.744    -0.000     0.000     18.07
+C(4)          1.000e-13
+   CO3-2           8.442e-14   5.525e-14   -13.074   -13.258    -0.184     (0)  
+   CaCO3           1.219e-14   1.219e-14   -13.914   -13.914     0.000     (0)  
+   MgCO3           1.920e-15   1.920e-15   -14.717   -14.717     0.000     (0)  
+   HCO3-           1.306e-15   1.179e-15   -14.884   -14.929    -0.044     (0)  
+   NaCO3-          1.598e-16   1.442e-16   -15.796   -15.841    -0.044     (0)  
+   CaHCO3+         3.378e-18   3.054e-18   -17.471   -17.515    -0.044     (0)  
+   MgHCO3+         5.607e-19   5.040e-19   -18.251   -18.298    -0.046     (0)  
+   NaHCO3          9.291e-20   9.291e-20   -19.032   -19.032     0.000     (0)  
+   H2CO3           2.651e-21   2.651e-21   -20.577   -20.577     0.000     (0)  
+Ca            2.500e-04
+   Ca+2            2.127e-04   1.392e-04    -3.672    -3.856    -0.184     (0)  
+   CaOH+           3.091e-05   2.795e-05    -4.510    -4.554    -0.044     (0)  
+   CaSO4           5.082e-06   5.082e-06    -5.294    -5.294     0.000     (0)  
+   CaNO3+          1.340e-06   1.187e-06    -5.873    -5.926    -0.053     (0)  
+   CaCO3           1.219e-14   1.219e-14   -13.914   -13.914     0.000     (0)  
+   CaHCO3+         3.378e-18   3.054e-18   -17.471   -17.515    -0.044     (0)  
+Cl            5.780e-04
+   Cl-             5.780e-04   5.199e-04    -3.238    -3.284    -0.046     (0)  
+   EuCl+2          1.465e-10   9.591e-11    -9.834   -10.018    -0.184     (0)  
+   EuCl2+          3.117e-14   2.804e-14   -13.506   -13.552    -0.046     (0)  
+Eu            1.000e-03
+   EuOH+2          9.999e-04   6.544e-04    -3.000    -3.184    -0.184     (0)  
+   Eu+3            9.778e-08   3.767e-08    -7.010    -7.424    -0.414     (0)  
+   EuCl+2          1.465e-10   9.591e-11    -9.834   -10.018    -0.184     (0)  
+   EuCl2+          3.117e-14   2.804e-14   -13.506   -13.552    -0.046     (0)  
+H(0)          0.000e+00
+   H2              0.000e+00   0.000e+00   -44.651   -44.650     0.001     (0)  
+Mg            2.500e-04
+   MgOH+           1.849e-04   1.675e-04    -3.733    -3.776    -0.043     (0)  
+   Mg+2            6.385e-05   4.179e-05    -4.195    -4.379    -0.184     (0)  
+   MgSO4           1.212e-06   1.212e-06    -5.916    -5.916     0.000     (0)  
+   MgCO3           1.920e-15   1.920e-15   -14.717   -14.717     0.000     (0)  
+   MgHCO3+         5.607e-19   5.040e-19   -18.251   -18.298    -0.046     (0)  
+N(5)          3.000e-03
+   NO3-            2.999e-03   2.697e-03    -2.523    -2.569    -0.046     (0)  
+   CaNO3+          1.340e-06   1.187e-06    -5.873    -5.926    -0.053     (0)  
+Na            1.560e-04
+   Na+             1.559e-04   1.402e-04    -3.807    -3.853    -0.046     (0)  
+   NaSO4-          1.329e-07   1.200e-07    -6.876    -6.921    -0.044     (0)  
+   NaCO3-          1.598e-16   1.442e-16   -15.796   -15.841    -0.044     (0)  
+   NaHCO3          9.291e-20   9.291e-20   -19.032   -19.032     0.000     (0)  
+O(0)          2.017e-03
+   O2              1.008e-03   1.011e-03    -2.996    -2.995     0.001     (0)  
+S(6)          2.500e-04
+   SO4-2           2.436e-04   1.594e-04    -3.613    -3.797    -0.184     (0)  
+   CaSO4           5.082e-06   5.082e-06    -5.294    -5.294     0.000     (0)  
+   MgSO4           1.212e-06   1.212e-06    -5.916    -5.916     0.000     (0)  
+   NaSO4-          1.329e-07   1.200e-07    -6.876    -6.921    -0.044     (0)  
+   HSO4-           1.730e-14   1.558e-14   -13.762   -13.807    -0.046     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Anhydrite        -3.29     -7.65   -4.36  CaSO4
+  Aragonite        -8.81    -17.11   -8.30  CaCO3
+  Artinite         -7.62      1.98    9.60  MgCO3:Mg(OH)2:3H2O
+  Brucite           2.78     19.62   16.84  Mg(OH)2
+  Calcite          -8.63    -17.11   -8.48  CaCO3
+  CH4(g)         -162.21   -203.26  -41.05  CH4
+  CO2(g)          -19.11    -37.26  -18.15  CO2
+  Dolomite(disordered) -18.21    -34.75  -16.54  CaMg(CO3)2
+  Dolomite(ordered) -17.66    -34.75  -17.09  CaMg(CO3)2
+  Epsomite         -6.05     -8.18   -2.13  MgSO4:7H2O
+  Eu(NO3)3:6H2O   -16.42    -15.13    1.29  Eu(NO3)3:6H2O
+  Eu(OH)2.5Cl.5     8.38     20.93   12.55  Eu(OH)2.5Cl.5
+  Eu(OH)2Cl         4.49     13.29    8.80  Eu(OH)2Cl
+  Eu(OH)3          13.23     28.58   15.34  Eu(OH)3
+  Eu2(CO3)3:3H2O  -17.74    -23.63   -5.89  Eu2(CO3)3:3H2O
+  Eu2(SO4)3:8H2O  -15.35    -26.24  -10.89  Eu2(SO4)3:8H2O
+  Eu2O3(cubic)      5.38     57.15   51.77  Eu2O3
+  Eu2O3(monoclinic)   3.77     57.15   53.38  Eu2O3
+  EuCl3           -36.98    -17.28   19.70  EuCl3
+  EuCl3:6H2O      -22.17    -17.28    4.89  EuCl3:6H2O
+  EuOCl            -2.37     13.29   15.66  EuOCl
+  EuOHCO3          -0.88      1.65    2.52  EuOHCO3
+  Fix_H+          -12.00    -12.00    0.00  H+
+  Fix_pe           -8.75     -8.75    0.00  e-
+  Gypsum           -3.04     -7.65   -4.61  CaSO4:2H2O
+  Halite           -8.74     -7.14    1.60  NaCl
+  Huntite         -40.06    -70.02  -29.97  CaMg3(CO3)4
+  Hydromagnesite  -42.16    -50.93   -8.77  Mg5(CO3)4(OH)2:4H2O
+  Lime            -12.56     20.14   32.70  CaO
+  Magnesite       -10.18    -17.64   -7.46  MgCO3
+  Mg(OH)2(active)   0.83     19.62   18.79  Mg(OH)2
+  Mirabilite      -10.39    -11.51   -1.11  Na2SO4:10H2O
+  Natron          -19.65    -20.97   -1.31  Na2CO3:10H2O
+  Nesquehonite    -12.97    -17.64   -4.67  MgCO3:3H2O
+  O2(g)            -0.09     83.00   83.09  O2
+  Periclase        -1.96     19.62   21.58  MgO
+  Portlandite      -2.66     20.14   22.80  Ca(OH)2
+  Thenardite      -11.83    -11.50    0.32  Na2SO4
+  Thermonatrite   -21.60    -20.96    0.64  Na2CO3:H2O
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+-----------------------------------------
+Beginning of batch-reaction calculations.
+-----------------------------------------
+
+Reaction step 1.
+
+Using solution 1.	
+Using surface 1.	
+Using pure phase assemblage 1.	
+
+-------------------------------Phase assemblage--------------------------------
+
+                                                      Moles in assemblage
+Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
+
+Calcite          -8.64   -17.12     -8.48    0.000e+00           0   0.000e+00
+Dolomite(disordered)  -18.22   -34.76    -16.54    0.000e+00           0   0.000e+00
+Eu(NO3)3:6H2O   -29.65   -28.36      1.29    0.000e+00           0   0.000e+00
+Eu(OH)2.5Cl.5    -4.85     7.70     12.55    0.000e+00           0   0.000e+00
+Eu(OH)2Cl        -8.74     0.06      8.80    0.000e+00           0   0.000e+00
+Eu(OH)3           0.00    15.34     15.34    0.000e+00   1.000e-03   1.000e-03
+Eu2(CO3)3:3H2O  -44.21   -50.10     -5.89    0.000e+00           0   0.000e+00
+Eu2O3(cubic)    -21.09    30.69     51.77    0.000e+00           0   0.000e+00
+Eu2O3(monoclinic)  -22.70    30.69     53.38    0.000e+00           0   0.000e+00
+EuCl3           -50.20   -30.50     19.70    0.000e+00           0   0.000e+00
+EuOCl           -15.60     0.06     15.66    0.000e+00           0   0.000e+00
+EuOHCO3         -14.11   -11.59      2.52    0.000e+00           0   0.000e+00
+Fix_H+          -12.00   -12.00      0.00
+	 NaOH               is reactant       1.000e+01   9.998e+00  -1.965e-03
+Fix_pe           -8.75    -8.75      0.00
+	 O2                 is reactant       1.000e+01   1.000e+01  -2.170e-07
+Magnesite       -10.17   -17.63     -7.46    0.000e+00           0   0.000e+00
+
+------------------------------Surface composition------------------------------
+
+Ha            
+	 -4.588e-06  Surface charge, plane 0, eq
+	  0.000e+00  Surface charge, plane 1, eq
+	  0.000e+00  Surface charge, plane 2, eq
+	 -4.588e-06  Sum of surface charge, all planes, eq
+
+	 -1.107e-04  sigma, plane 0, C/m²
+	  0.000e+00  sigma, plane 1, C/m²
+	  0.000e+00  sigma, plane 2, C/m²
+	  1.107e-04  sigma, diffuse layer, C/m²
+
+	 -3.189e-02  psi, plane 0, V
+	 -3.865e-04  psi, plane 1, V
+	 -3.865e-04  psi, plane 2, V
+
+	  3.460e+00  exp(-F*psi/RT), plane 0
+	  1.015e+00  exp(-F*psi/RT), plane 1
+	  1.015e+00  exp(-F*psi/RT), plane 2
+
+	  3.514e-03  capacitance 0-1, F/m^2
+	  1.000e+05  capacitance 1-2, F/m^2
+	  1.000e+06  specific area, m^2/g
+	  4.000e+03  m^2 for   4.000e-03 g
+
+
+Ha_a          
+	  1.480e-06  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_a-                  1.362e-06       0.920   1.362e-06      -5.866
+	Ha_aCa+                1.118e-07       0.076   1.118e-07      -6.951
+	Ha_aCaOH               6.492e-09       0.004   6.492e-09      -8.188
+	Ha_aH                  2.972e-15       0.000   2.972e-15     -14.527
+	Ha_aEu(OH)+            1.429e-18       0.000   1.429e-18     -17.845
+	Ha_aEu+2               2.846e-22       0.000   2.846e-22     -21.546
+
+Ha_ab         
+	  7.640e-07  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_abCa                5.872e-07       0.769   5.872e-07      -6.231
+	Ha_ab-2                1.427e-07       0.187   1.427e-07      -6.846
+	Ha_abCaOH-             3.409e-08       0.045   3.409e-08      -7.467
+	Ha_abH-                2.309e-15       0.000   2.309e-15     -14.637
+	Ha_abEu(OH)            3.430e-16       0.000   3.430e-16     -15.465
+	Ha_abEu+               6.832e-20       0.000   6.831e-20     -19.165
+	Ha_abH2                5.040e-24       0.000   5.040e-24     -23.298
+
+Ha_abe        
+	  4.960e-08  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_abeCa-              4.687e-08       0.945   4.687e-08      -7.329
+	Ha_abeCaOH-2           2.721e-09       0.055   2.721e-09      -8.565
+	Ha_abe-3               4.135e-12       0.000   4.135e-12     -11.384
+	Ha_abeEu(OH)-          1.660e-15       0.000   1.660e-15     -14.780
+	Ha_abeH-2              8.044e-17       0.000   8.044e-17     -16.095
+	Ha_abeEu               3.286e-19       0.000   3.286e-19     -18.483
+	Ha_abeH2-              1.302e-24       0.000   1.302e-24     -23.885
+	Ha_abeH3               2.842e-33       0.000   2.842e-33     -32.546
+
+Ha_abey       
+	  4.960e-09  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_abeyCa-             4.687e-09       0.945   4.687e-09      -8.329
+	Ha_abeyCaOH-2          2.721e-10       0.055   2.721e-10      -9.565
+	Ha_abeyEu(OH)-         6.062e-13       0.000   6.062e-13     -12.217
+	Ha_abey-3              4.134e-13       0.000   4.134e-13     -12.384
+	Ha_abeyEu              1.221e-16       0.000   1.221e-16     -15.913
+	Ha_abeyH-2             8.043e-18       0.000   8.043e-18     -17.095
+	Ha_abeyH2-             1.302e-25       0.000   1.302e-25     -24.886
+	Ha_abeyH3              2.841e-34       0.000   2.841e-34     -33.546
+
+Ha_abeyy      
+	  4.960e-10  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_abeyyCa-            3.241e-10       0.653   3.241e-10      -9.489
+	Ha_abeyyEu(OH)-        1.531e-10       0.309   1.531e-10      -9.815
+	Ha_abeyyCaOH-2         1.881e-11       0.038   1.881e-11     -10.726
+	Ha_abeyyEu             3.064e-14       0.000   3.064e-14     -13.514
+	Ha_abeyy-3             2.859e-14       0.000   2.859e-14     -13.544
+	Ha_abeyyH-2            5.561e-19       0.000   5.561e-19     -18.255
+	Ha_abeyyH2-            8.999e-27       0.000   8.999e-27     -26.046
+	Ha_abeyyH3             1.964e-35       0.000   1.964e-35     -34.707
+
+Ha_abf        
+	  4.960e-08  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_abfCa-              4.687e-08       0.945   4.687e-08      -7.329
+	Ha_abfCaOH-2           2.721e-09       0.055   2.721e-09      -8.565
+	Ha_abf-3               4.135e-12       0.000   4.135e-12     -11.384
+	Ha_abfEu(OH)-          1.660e-15       0.000   1.660e-15     -14.780
+	Ha_abfH-2              8.620e-16       0.000   8.620e-16     -15.065
+	Ha_abfEu               3.286e-19       0.000   3.286e-19     -18.483
+	Ha_abfH2-              1.395e-23       0.000   1.395e-23     -22.855
+	Ha_abfH3               3.045e-32       0.000   3.045e-32     -31.516
+
+Ha_abfy       
+	  4.960e-09  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_abfyCa-             4.687e-09       0.945   4.687e-09      -8.329
+	Ha_abfyCaOH-2          2.721e-10       0.055   2.721e-10      -9.565
+	Ha_abfyEu(OH)-         6.062e-13       0.000   6.062e-13     -12.217
+	Ha_abfy-3              4.134e-13       0.000   4.134e-13     -12.384
+	Ha_abfyEu              1.221e-16       0.000   1.221e-16     -15.913
+	Ha_abfyH-2             8.619e-17       0.000   8.619e-17     -16.065
+	Ha_abfyH2-             1.395e-24       0.000   1.395e-24     -23.856
+	Ha_abfyH3              3.044e-33       0.000   3.044e-33     -32.516
+
+Ha_abfyy      
+	  4.960e-10  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_abfyyCa-            3.241e-10       0.653   3.241e-10      -9.489
+	Ha_abfyyEu(OH)-        1.531e-10       0.309   1.531e-10      -9.815
+	Ha_abfyyCaOH-2         1.881e-11       0.038   1.881e-11     -10.726
+	Ha_abfyyEu             3.064e-14       0.000   3.064e-14     -13.514
+	Ha_abfyy-3             2.859e-14       0.000   2.859e-14     -13.544
+	Ha_abfyyH-2            5.959e-18       0.000   5.959e-18     -17.225
+	Ha_abfyyH2-            9.643e-26       0.000   9.643e-26     -25.016
+	Ha_abfyyH3             2.105e-34       0.000   2.105e-34     -33.677
+
+Ha_abg        
+	  4.960e-08  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_abgCa-              4.687e-08       0.945   4.687e-08      -7.329
+	Ha_abgCaOH-2           2.721e-09       0.055   2.721e-09      -8.565
+	Ha_abg-3               4.135e-12       0.000   4.135e-12     -11.384
+	Ha_abgH-2              9.451e-15       0.000   9.451e-15     -14.025
+	Ha_abgEu(OH)-          1.660e-15       0.000   1.660e-15     -14.780
+	Ha_abgEu               3.286e-19       0.000   3.286e-19     -18.483
+	Ha_abgH2-              1.529e-22       0.000   1.529e-22     -21.815
+	Ha_abgH3               3.339e-31       0.000   3.339e-31     -30.476
+
+Ha_abgy       
+	  4.960e-09  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_abgyCa-             4.687e-09       0.945   4.687e-09      -8.329
+	Ha_abgyCaOH-2          2.721e-10       0.055   2.721e-10      -9.565
+	Ha_abgyEu(OH)-         6.062e-13       0.000   6.062e-13     -12.217
+	Ha_abgy-3              4.134e-13       0.000   4.134e-13     -12.384
+	Ha_abgyH-2             9.450e-16       0.000   9.450e-16     -15.025
+	Ha_abgyEu              1.221e-16       0.000   1.221e-16     -15.913
+	Ha_abgyH2-             1.529e-23       0.000   1.529e-23     -22.816
+	Ha_abgyH3              3.338e-32       0.000   3.338e-32     -31.476
+
+Ha_abgyy      
+	  4.960e-10  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_abgyyCa-            3.241e-10       0.653   3.241e-10      -9.489
+	Ha_abgyyEu(OH)-        1.531e-10       0.309   1.531e-10      -9.815
+	Ha_abgyyCaOH-2         1.881e-11       0.038   1.881e-11     -10.726
+	Ha_abgyyEu             3.064e-14       0.000   3.064e-14     -13.514
+	Ha_abgyy-3             2.859e-14       0.000   2.859e-14     -13.544
+	Ha_abgyyH-2            6.534e-17       0.000   6.534e-17     -16.185
+	Ha_abgyyH2-            1.057e-24       0.000   1.057e-24     -23.976
+	Ha_abgyyH3             2.308e-33       0.000   2.308e-33     -32.637
+
+Ha_abh        
+	  4.960e-08  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_abhCa-              4.687e-08       0.945   4.687e-08      -7.329
+	Ha_abhCaOH-2           2.721e-09       0.055   2.721e-09      -8.565
+	Ha_abh-3               4.135e-12       0.000   4.135e-12     -11.384
+	Ha_abhH-2              1.013e-13       0.000   1.013e-13     -12.995
+	Ha_abhEu(OH)-          1.660e-15       0.000   1.660e-15     -14.780
+	Ha_abhEu               3.286e-19       0.000   3.286e-19     -18.483
+	Ha_abhH2-              1.639e-21       0.000   1.639e-21     -20.785
+	Ha_abhH3               3.577e-30       0.000   3.577e-30     -29.446
+
+Ha_abhy       
+	  4.960e-09  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_abhyCa-             4.687e-09       0.945   4.687e-09      -8.329
+	Ha_abhyCaOH-2          2.721e-10       0.055   2.721e-10      -9.565
+	Ha_abhyEu(OH)-         6.062e-13       0.000   6.062e-13     -12.217
+	Ha_abhy-3              4.134e-13       0.000   4.134e-13     -12.384
+	Ha_abhyH-2             1.013e-14       0.000   1.013e-14     -13.995
+	Ha_abhyEu              1.221e-16       0.000   1.221e-16     -15.913
+	Ha_abhyH2-             1.639e-22       0.000   1.639e-22     -21.786
+	Ha_abhyH3              3.577e-31       0.000   3.577e-31     -30.446
+
+Ha_abhyy      
+	  4.960e-10  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_abhyyCa-            3.241e-10       0.653   3.241e-10      -9.489
+	Ha_abhyyEu(OH)-        1.531e-10       0.309   1.531e-10      -9.815
+	Ha_abhyyCaOH-2         1.881e-11       0.038   1.881e-11     -10.726
+	Ha_abhyyEu             3.064e-14       0.000   3.064e-14     -13.514
+	Ha_abhyy-3             2.859e-14       0.000   2.859e-14     -13.544
+	Ha_abhyyH-2            7.001e-16       0.000   7.001e-16     -15.155
+	Ha_abhyyH2-            1.133e-23       0.000   1.133e-23     -22.946
+	Ha_abhyyH3             2.473e-32       0.000   2.473e-32     -31.607
+
+Ha_abx        
+	  7.640e-08  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_abxCa               5.872e-08       0.769   5.872e-08      -7.231
+	Ha_abx-2               1.427e-08       0.187   1.427e-08      -7.846
+	Ha_abxCaOH-            3.409e-09       0.045   3.409e-09      -8.467
+	Ha_abxEu(OH)           8.135e-15       0.000   8.135e-15     -14.090
+	Ha_abxH-               2.309e-16       0.000   2.309e-16     -15.637
+	Ha_abxEu+              1.639e-18       0.000   1.639e-18     -17.785
+	Ha_abxH2               5.040e-25       0.000   5.040e-25     -24.298
+
+Ha_abxx       
+	  7.640e-09  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_abxxCa              5.872e-09       0.769   5.872e-09      -8.231
+	Ha_abxx-2              1.427e-09       0.187   1.427e-09      -8.846
+	Ha_abxxCaOH-           3.409e-10       0.045   3.409e-10      -9.467
+	Ha_abxxEu(OH)          1.929e-13       0.000   1.929e-13     -12.715
+	Ha_abxxEu+             3.842e-17       0.000   3.842e-17     -16.415
+	Ha_abxxH-              2.309e-17       0.000   2.309e-17     -16.637
+	Ha_abxxH2              5.040e-26       0.000   5.040e-26     -25.298
+
+Ha_ae         
+	  7.640e-07  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_aeCa                7.191e-07       0.941   7.191e-07      -6.143
+	Ha_aeCaOH-             4.174e-08       0.055   4.174e-08      -7.379
+	Ha_ae-2                3.179e-09       0.004   3.179e-09      -8.498
+	Ha_aeH-                6.185e-14       0.000   6.185e-14     -13.209
+	Ha_aeEu(OH)            5.572e-16       0.000   5.572e-16     -15.254
+	Ha_aeEu+               1.103e-19       0.000   1.103e-19     -18.958
+	Ha_aeH2                1.350e-22       0.000   1.350e-22     -21.870
+
+Ha_aex        
+	  7.640e-08  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_aexCa               7.191e-08       0.941   7.191e-08      -7.143
+	Ha_aexCaOH-            4.174e-09       0.055   4.174e-09      -8.379
+	Ha_aex-2               3.179e-10       0.004   3.179e-10      -9.498
+	Ha_aexEu(OH)           1.321e-14       0.000   1.321e-14     -13.879
+	Ha_aexH-               6.185e-15       0.000   6.185e-15     -14.209
+	Ha_aexEu+              2.645e-18       0.000   2.645e-18     -17.578
+	Ha_aexH2               1.350e-23       0.000   1.350e-23     -22.870
+
+Ha_aexx       
+	  7.640e-09  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_aexxCa              7.190e-09       0.941   7.190e-09      -8.143
+	Ha_aexxCaOH-           4.174e-10       0.055   4.174e-10      -9.379
+	Ha_aexx-2              3.179e-11       0.004   3.179e-11     -10.498
+	Ha_aexxEu(OH)          3.133e-13       0.000   3.133e-13     -12.504
+	Ha_aexxH-              6.185e-16       0.000   6.185e-16     -15.209
+	Ha_aexxEu+             6.201e-17       0.000   6.201e-17     -16.208
+	Ha_aexxH2              1.350e-24       0.000   1.350e-24     -23.870
+
+Ha_b          
+	  1.480e-06  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_b-                  1.362e-06       0.920   1.362e-06      -5.866
+	Ha_bCa+                1.118e-07       0.076   1.118e-07      -6.951
+	Ha_bCaOH               6.492e-09       0.004   6.492e-09      -8.188
+	Ha_bH                  2.203e-14       0.000   2.203e-14     -13.657
+	Ha_bEu(OH)+            1.429e-18       0.000   1.429e-18     -17.845
+	Ha_bEu+2               2.846e-22       0.000   2.846e-22     -21.546
+
+Ha_bf         
+	  7.640e-07  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_bfCa                7.191e-07       0.941   7.191e-07      -6.143
+	Ha_bfCaOH-             4.174e-08       0.055   4.174e-08      -7.379
+	Ha_bf-2                3.179e-09       0.004   3.179e-09      -8.498
+	Ha_bfH-                6.627e-13       0.000   6.627e-13     -12.179
+	Ha_bfEu(OH)            5.572e-16       0.000   5.572e-16     -15.254
+	Ha_bfEu+               1.103e-19       0.000   1.103e-19     -18.958
+	Ha_bfH2                1.072e-20       0.000   1.072e-20     -19.970
+
+Ha_bfx        
+	  7.640e-08  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_bfxCa               7.191e-08       0.941   7.191e-08      -7.143
+	Ha_bfxCaOH-            4.174e-09       0.055   4.174e-09      -8.379
+	Ha_bfx-2               3.179e-10       0.004   3.179e-10      -9.498
+	Ha_bfxH-               6.627e-14       0.000   6.627e-14     -13.179
+	Ha_bfxEu(OH)           1.321e-14       0.000   1.321e-14     -13.879
+	Ha_bfxEu+              2.645e-18       0.000   2.645e-18     -17.578
+	Ha_bfxH2               1.072e-21       0.000   1.072e-21     -20.970
+
+Ha_bfxx       
+	  7.640e-09  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_bfxxCa              7.190e-09       0.941   7.190e-09      -8.143
+	Ha_bfxxCaOH-           4.174e-10       0.055   4.174e-10      -9.379
+	Ha_bfxx-2              3.179e-11       0.004   3.179e-11     -10.498
+	Ha_bfxxEu(OH)          3.133e-13       0.000   3.133e-13     -12.504
+	Ha_bfxxH-              6.627e-15       0.000   6.627e-15     -14.179
+	Ha_bfxxEu+             6.201e-17       0.000   6.201e-17     -16.208
+	Ha_bfxxH2              1.072e-22       0.000   1.072e-22     -21.970
+
+Ha_c          
+	  1.480e-06  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_c-                  1.362e-06       0.920   1.362e-06      -5.866
+	Ha_cCa+                1.118e-07       0.076   1.118e-07      -6.951
+	Ha_cCaOH               6.492e-09       0.004   6.492e-09      -8.188
+	Ha_cH                  1.596e-13       0.000   1.596e-13     -12.797
+	Ha_cEu(OH)+            1.429e-18       0.000   1.429e-18     -17.845
+	Ha_cEu+2               2.846e-22       0.000   2.846e-22     -21.546
+
+Ha_cd         
+	  7.640e-07  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_cdCa                5.872e-07       0.769   5.872e-07      -6.231
+	Ha_cd-2                1.427e-07       0.187   1.427e-07      -6.846
+	Ha_cdCaOH-             3.409e-08       0.045   3.409e-08      -7.467
+	Ha_cdH-                1.240e-13       0.000   1.240e-13     -12.907
+	Ha_cdEu(OH)            3.430e-16       0.000   3.430e-16     -15.465
+	Ha_cdEu+               6.832e-20       0.000   6.831e-20     -19.165
+	Ha_cdH2                1.453e-20       0.000   1.453e-20     -19.838
+
+Ha_cde        
+	  4.960e-08  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_cdeCa-              4.687e-08       0.945   4.687e-08      -7.329
+	Ha_cdeCaOH-2           2.721e-09       0.055   2.721e-09      -8.565
+	Ha_cde-3               4.135e-12       0.000   4.135e-12     -11.384
+	Ha_cdeEu(OH)-          1.660e-15       0.000   1.660e-15     -14.780
+	Ha_cdeH-2              8.044e-17       0.000   8.044e-17     -16.095
+	Ha_cdeEu               3.286e-19       0.000   3.286e-19     -18.483
+	Ha_cdeH2-              6.991e-23       0.000   6.991e-23     -22.155
+	Ha_cdeH3               8.195e-30       0.000   8.195e-30     -29.086
+
+Ha_cdey       
+	  4.960e-09  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_cdeyCa-             4.687e-09       0.945   4.687e-09      -8.329
+	Ha_cdeyCaOH-2          2.721e-10       0.055   2.721e-10      -9.565
+	Ha_cdeyEu(OH)-         6.062e-13       0.000   6.062e-13     -12.217
+	Ha_cdey-3              4.134e-13       0.000   4.134e-13     -12.384
+	Ha_cdeyEu              1.221e-16       0.000   1.221e-16     -15.913
+	Ha_cdeyH-2             8.043e-18       0.000   8.043e-18     -17.095
+	Ha_cdeyH2-             6.990e-24       0.000   6.990e-24     -23.156
+	Ha_cdeyH3              8.194e-31       0.000   8.194e-31     -30.086
+
+Ha_cdeyy      
+	  4.960e-10  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_cdeyyCa-            3.241e-10       0.653   3.241e-10      -9.489
+	Ha_cdeyyEu(OH)-        1.531e-10       0.309   1.531e-10      -9.815
+	Ha_cdeyyCaOH-2         1.881e-11       0.038   1.881e-11     -10.726
+	Ha_cdeyyEu             3.064e-14       0.000   3.064e-14     -13.514
+	Ha_cdeyy-3             2.859e-14       0.000   2.859e-14     -13.544
+	Ha_cdeyyH-2            5.561e-19       0.000   5.561e-19     -18.255
+	Ha_cdeyyH2-            4.833e-25       0.000   4.833e-25     -24.316
+	Ha_cdeyyH3             5.666e-32       0.000   5.666e-32     -31.247
+
+Ha_cdf        
+	  4.960e-08  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_cdfCa-              4.687e-08       0.945   4.687e-08      -7.329
+	Ha_cdfCaOH-2           2.721e-09       0.055   2.721e-09      -8.565
+	Ha_cdf-3               4.135e-12       0.000   4.135e-12     -11.384
+	Ha_cdfEu(OH)-          1.660e-15       0.000   1.660e-15     -14.780
+	Ha_cdfH-2              8.620e-16       0.000   8.620e-16     -15.065
+	Ha_cdfEu               3.286e-19       0.000   3.286e-19     -18.483
+	Ha_cdfH2-              7.491e-22       0.000   7.491e-22     -21.125
+	Ha_cdfH3               8.781e-29       0.000   8.781e-29     -28.056
+
+Ha_cdfy       
+	  4.960e-09  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_cdfyCa-             4.687e-09       0.945   4.687e-09      -8.329
+	Ha_cdfyCaOH-2          2.721e-10       0.055   2.721e-10      -9.565
+	Ha_cdfyEu(OH)-         6.062e-13       0.000   6.062e-13     -12.217
+	Ha_cdfy-3              4.134e-13       0.000   4.134e-13     -12.384
+	Ha_cdfyEu              1.221e-16       0.000   1.221e-16     -15.913
+	Ha_cdfyH-2             8.619e-17       0.000   8.619e-17     -16.065
+	Ha_cdfyH2-             7.490e-23       0.000   7.490e-23     -22.126
+	Ha_cdfyH3              8.780e-30       0.000   8.780e-30     -29.056
+
+Ha_cdfyy      
+	  4.960e-10  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_cdfyyCa-            3.241e-10       0.653   3.241e-10      -9.489
+	Ha_cdfyyEu(OH)-        1.531e-10       0.309   1.531e-10      -9.815
+	Ha_cdfyyCaOH-2         1.881e-11       0.038   1.881e-11     -10.726
+	Ha_cdfyyEu             3.064e-14       0.000   3.064e-14     -13.514
+	Ha_cdfyy-3             2.859e-14       0.000   2.859e-14     -13.544
+	Ha_cdfyyH-2            5.959e-18       0.000   5.959e-18     -17.225
+	Ha_cdfyyH2-            5.179e-24       0.000   5.179e-24     -23.286
+	Ha_cdfyyH3             6.071e-31       0.000   6.071e-31     -30.217
+
+Ha_cdg        
+	  4.960e-08  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_cdgCa-              4.687e-08       0.945   4.687e-08      -7.329
+	Ha_cdgCaOH-2           2.721e-09       0.055   2.721e-09      -8.565
+	Ha_cdg-3               4.135e-12       0.000   4.135e-12     -11.384
+	Ha_cdgH-2              9.451e-15       0.000   9.451e-15     -14.025
+	Ha_cdgEu(OH)-          1.660e-15       0.000   1.660e-15     -14.780
+	Ha_cdgEu               3.286e-19       0.000   3.286e-19     -18.483
+	Ha_cdgH2-              8.213e-21       0.000   8.213e-21     -20.085
+	Ha_cdgH3               9.629e-28       0.000   9.629e-28     -27.016
+
+Ha_cdgy       
+	  4.960e-09  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_cdgyCa-             4.687e-09       0.945   4.687e-09      -8.329
+	Ha_cdgyCaOH-2          2.721e-10       0.055   2.721e-10      -9.565
+	Ha_cdgyEu(OH)-         6.062e-13       0.000   6.062e-13     -12.217
+	Ha_cdgy-3              4.134e-13       0.000   4.134e-13     -12.384
+	Ha_cdgyH-2             9.450e-16       0.000   9.450e-16     -15.025
+	Ha_cdgyEu              1.221e-16       0.000   1.221e-16     -15.913
+	Ha_cdgyH2-             8.212e-22       0.000   8.212e-22     -21.086
+	Ha_cdgyH3              9.627e-29       0.000   9.627e-29     -28.016
+
+Ha_cdgyy      
+	  4.960e-10  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_cdgyyCa-            3.241e-10       0.653   3.241e-10      -9.489
+	Ha_cdgyyEu(OH)-        1.531e-10       0.309   1.531e-10      -9.815
+	Ha_cdgyyCaOH-2         1.881e-11       0.038   1.881e-11     -10.726
+	Ha_cdgyyEu             3.064e-14       0.000   3.064e-14     -13.514
+	Ha_cdgyy-3             2.859e-14       0.000   2.859e-14     -13.544
+	Ha_cdgyyH-2            6.534e-17       0.000   6.534e-17     -16.185
+	Ha_cdgyyH2-            5.678e-23       0.000   5.678e-23     -22.246
+	Ha_cdgyyH3             6.657e-30       0.000   6.657e-30     -29.177
+
+Ha_cdh        
+	  4.960e-08  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_cdhCa-              4.687e-08       0.945   4.687e-08      -7.329
+	Ha_cdhCaOH-2           2.721e-09       0.055   2.721e-09      -8.565
+	Ha_cdh-3               4.135e-12       0.000   4.135e-12     -11.384
+	Ha_cdhH-2              1.013e-13       0.000   1.013e-13     -12.995
+	Ha_cdhEu(OH)-          1.660e-15       0.000   1.660e-15     -14.780
+	Ha_cdhEu               3.286e-19       0.000   3.286e-19     -18.483
+	Ha_cdhH2-              8.801e-20       0.000   8.801e-20     -19.055
+	Ha_cdhH3               1.032e-26       0.000   1.032e-26     -25.986
+
+Ha_cdhy       
+	  4.960e-09  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_cdhyCa-             4.687e-09       0.945   4.687e-09      -8.329
+	Ha_cdhyCaOH-2          2.721e-10       0.055   2.721e-10      -9.565
+	Ha_cdhyEu(OH)-         6.062e-13       0.000   6.062e-13     -12.217
+	Ha_cdhy-3              4.134e-13       0.000   4.134e-13     -12.384
+	Ha_cdhyH-2             1.013e-14       0.000   1.013e-14     -13.995
+	Ha_cdhyEu              1.221e-16       0.000   1.221e-16     -15.913
+	Ha_cdhyH2-             8.800e-21       0.000   8.800e-21     -20.056
+	Ha_cdhyH3              1.032e-27       0.000   1.032e-27     -26.986
+
+Ha_cdhyy      
+	  4.960e-10  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_cdhyyCa-            3.241e-10       0.653   3.241e-10      -9.489
+	Ha_cdhyyEu(OH)-        1.531e-10       0.309   1.531e-10      -9.815
+	Ha_cdhyyCaOH-2         1.881e-11       0.038   1.881e-11     -10.726
+	Ha_cdhyyEu             3.064e-14       0.000   3.064e-14     -13.514
+	Ha_cdhyy-3             2.859e-14       0.000   2.859e-14     -13.544
+	Ha_cdhyyH-2            7.001e-16       0.000   7.001e-16     -15.155
+	Ha_cdhyyH2-            6.084e-22       0.000   6.084e-22     -21.216
+	Ha_cdhyyH3             7.133e-29       0.000   7.133e-29     -28.147
+
+Ha_cdx        
+	  7.640e-08  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_cdxCa               5.872e-08       0.769   5.872e-08      -7.231
+	Ha_cdx-2               1.427e-08       0.187   1.427e-08      -7.846
+	Ha_cdxCaOH-            3.409e-09       0.045   3.409e-09      -8.467
+	Ha_cdxH-               1.240e-14       0.000   1.240e-14     -13.907
+	Ha_cdxEu(OH)           8.135e-15       0.000   8.135e-15     -14.090
+	Ha_cdxEu+              1.639e-18       0.000   1.639e-18     -17.785
+	Ha_cdxH2               1.453e-21       0.000   1.453e-21     -20.838
+
+Ha_cdxx       
+	  7.640e-09  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_cdxxCa              5.872e-09       0.769   5.872e-09      -8.231
+	Ha_cdxx-2              1.427e-09       0.187   1.427e-09      -8.846
+	Ha_cdxxCaOH-           3.409e-10       0.045   3.409e-10      -9.467
+	Ha_cdxxEu(OH)          1.929e-13       0.000   1.929e-13     -12.715
+	Ha_cdxxH-              1.240e-15       0.000   1.240e-15     -14.907
+	Ha_cdxxEu+             3.842e-17       0.000   3.842e-17     -16.415
+	Ha_cdxxH2              1.453e-22       0.000   1.453e-22     -21.838
+
+Ha_cg         
+	  7.640e-07  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_cgCa                7.191e-07       0.941   7.191e-07      -6.143
+	Ha_cgCaOH-             4.174e-08       0.055   4.174e-08      -7.379
+	Ha_cg-2                3.179e-09       0.004   3.179e-09      -8.498
+	Ha_cgH-                7.266e-12       0.000   7.266e-12     -11.139
+	Ha_cgEu(OH)            5.572e-16       0.000   5.572e-16     -15.254
+	Ha_cgH2                8.518e-19       0.000   8.518e-19     -18.070
+	Ha_cgEu+               1.103e-19       0.000   1.103e-19     -18.958
+
+Ha_cgx        
+	  7.640e-08  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_cgxCa               7.191e-08       0.941   7.191e-08      -7.143
+	Ha_cgxCaOH-            4.174e-09       0.055   4.174e-09      -8.379
+	Ha_cgx-2               3.179e-10       0.004   3.179e-10      -9.498
+	Ha_cgxH-               7.266e-13       0.000   7.266e-13     -12.139
+	Ha_cgxEu(OH)           1.321e-14       0.000   1.321e-14     -13.879
+	Ha_cgxEu+              2.645e-18       0.000   2.645e-18     -17.578
+	Ha_cgxH2               8.518e-20       0.000   8.518e-20     -19.070
+
+Ha_cgxx       
+	  7.640e-09  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_cgxxCa              7.190e-09       0.941   7.190e-09      -8.143
+	Ha_cgxxCaOH-           4.174e-10       0.055   4.174e-10      -9.379
+	Ha_cgxx-2              3.179e-11       0.004   3.179e-11     -10.498
+	Ha_cgxxEu(OH)          3.133e-13       0.000   3.133e-13     -12.504
+	Ha_cgxxH-              7.266e-14       0.000   7.266e-14     -13.139
+	Ha_cgxxEu+             6.201e-17       0.000   6.201e-17     -16.208
+	Ha_cgxxH2              8.518e-21       0.000   8.518e-21     -20.070
+
+Ha_d          
+	  1.480e-06  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_d-                  1.362e-06       0.920   1.362e-06      -5.866
+	Ha_dCa+                1.118e-07       0.076   1.118e-07      -6.951
+	Ha_dCaOH               6.492e-09       0.004   6.492e-09      -8.188
+	Ha_dH                  1.183e-12       0.000   1.183e-12     -11.927
+	Ha_dEu(OH)+            1.429e-18       0.000   1.429e-18     -17.845
+	Ha_dEu+2               2.846e-22       0.000   2.846e-22     -21.546
+
+Ha_dh         
+	  7.640e-07  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_dhCa                7.190e-07       0.941   7.190e-07      -6.143
+	Ha_dhCaOH-             4.174e-08       0.055   4.174e-08      -7.379
+	Ha_dh-2                3.179e-09       0.004   3.179e-09      -8.498
+	Ha_dhH-                7.785e-11       0.000   7.785e-11     -10.109
+	Ha_dhEu(OH)            5.572e-16       0.000   5.572e-16     -15.254
+	Ha_dhH2                6.766e-17       0.000   6.766e-17     -16.170
+	Ha_dhEu+               1.103e-19       0.000   1.103e-19     -18.958
+
+Ha_dhx        
+	  7.640e-08  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_dhxCa               7.190e-08       0.941   7.190e-08      -7.143
+	Ha_dhxCaOH-            4.174e-09       0.055   4.174e-09      -8.379
+	Ha_dhx-2               3.179e-10       0.004   3.179e-10      -9.498
+	Ha_dhxH-               7.785e-12       0.000   7.785e-12     -11.109
+	Ha_dhxEu(OH)           1.321e-14       0.000   1.321e-14     -13.879
+	Ha_dhxH2               6.766e-18       0.000   6.766e-18     -17.170
+	Ha_dhxEu+              2.645e-18       0.000   2.645e-18     -17.578
+
+Ha_dhxx       
+	  7.640e-09  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_dhxxCa              7.190e-09       0.941   7.190e-09      -8.143
+	Ha_dhxxCaOH-           4.174e-10       0.055   4.174e-10      -9.379
+	Ha_dhxx-2              3.179e-11       0.004   3.179e-11     -10.498
+	Ha_dhxxH-              7.785e-13       0.000   7.785e-13     -12.109
+	Ha_dhxxEu(OH)          3.133e-13       0.000   3.133e-13     -12.504
+	Ha_dhxxEu+             6.200e-17       0.000   6.200e-17     -16.208
+	Ha_dhxxH2              6.766e-19       0.000   6.766e-19     -18.170
+
+Ha_e          
+	  7.400e-07  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_eCa+                5.783e-07       0.781   5.783e-07      -6.238
+	Ha_e-                  1.281e-07       0.173   1.281e-07      -6.892
+	Ha_eCaOH               3.357e-08       0.045   3.357e-08      -7.474
+	Ha_eH                  2.493e-12       0.000   2.493e-12     -11.603
+	Ha_eEu(OH)+            9.804e-18       0.000   9.804e-18     -17.009
+	Ha_eEu+2               1.940e-21       0.000   1.940e-21     -20.712
+
+Ha_f          
+	  7.400e-07  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_fCa+                5.783e-07       0.781   5.783e-07      -6.238
+	Ha_f-                  1.281e-07       0.173   1.281e-07      -6.892
+	Ha_fCaOH               3.357e-08       0.045   3.357e-08      -7.474
+	Ha_fH                  2.671e-11       0.000   2.671e-11     -10.573
+	Ha_fEu(OH)+            9.804e-18       0.000   9.804e-18     -17.009
+	Ha_fEu+2               1.940e-21       0.000   1.940e-21     -20.712
+
+Ha_g          
+	  7.400e-07  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_gCa+                5.781e-07       0.781   5.781e-07      -6.238
+	Ha_g-                  1.281e-07       0.173   1.281e-07      -6.893
+	Ha_gCaOH               3.356e-08       0.045   3.356e-08      -7.474
+	Ha_gH                  2.928e-10       0.000   2.928e-10      -9.533
+	Ha_gEu(OH)+            9.800e-18       0.000   9.800e-18     -17.009
+	Ha_gEu+2               1.939e-21       0.000   1.939e-21     -20.712
+
+Ha_h          
+	  7.400e-07  moles
+	                                        Mole                     Log
+	Species                    Moles    Fraction    Molality    Molality
+
+	Ha_hCa+                5.759e-07       0.778   5.759e-07      -6.240
+	Ha_h-                  1.276e-07       0.172   1.276e-07      -6.894
+	Ha_hCaOH               3.343e-08       0.045   3.343e-08      -7.476
+	Ha_hH                  3.125e-09       0.004   3.125e-09      -8.505
+	Ha_hEu(OH)+            9.763e-18       0.000   9.763e-18     -17.010
+	Ha_hEu+2               1.932e-21       0.000   1.932e-21     -20.714
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	C                 1.000e-13   1.000e-13
+	Ca                2.419e-04   2.419e-04
+	Cl                5.780e-04   5.780e-04
+	Eu                5.739e-17   5.739e-17
+	Mg                2.500e-04   2.500e-04
+	N                 3.000e-03   3.000e-03
+	Na                2.121e-03   2.121e-03
+	S                 2.500e-04   2.500e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =  12.000      Charge balance
+                                       pe  =   8.750      Adjusted to redox equilibrium
+                        Activity of water  =   1.000
+                 Ionic strength (mol/kgw)  =   9.558e-03
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   1.138e-02
+                       Total CO2 (mol/kg)  =   1.000e-13
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =  -1.235e-02
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -68.25
+                               Iterations  =  57
+                                  Total H  = 1.110251e+02
+                                  Total O  = 5.553025e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma    cm³/mol
+
+   OH-             1.116e-02   1.007e-02    -1.952    -1.997    -0.045     (0)  
+   H2O-0.01        8.173e-10   8.173e-10    -9.088    -9.088    -0.000     (0)  
+   H+              1.107e-12   1.000e-12   -11.956   -12.000    -0.044      0.00
+   H2O             5.551e+01   9.997e-01     1.744    -0.000     0.000     18.07
+C(4)          1.000e-13
+   CO3-2           8.264e-14   5.512e-14   -13.083   -13.259    -0.176     (0)  
+   CaCO3           1.196e-14   1.196e-14   -13.922   -13.922     0.000     (0)  
+   NaCO3-          2.168e-15   1.966e-15   -14.664   -14.706    -0.042     (0)  
+   MgCO3           1.931e-15   1.931e-15   -14.714   -14.714     0.000     (0)  
+   HCO3-           1.297e-15   1.176e-15   -14.887   -14.930    -0.042     (0)  
+   CaHCO3+         3.300e-18   2.997e-18   -17.481   -17.523    -0.042     (0)  
+   NaHCO3          1.266e-18   1.266e-18   -17.897   -17.897     0.000     (0)  
+   MgHCO3+         5.611e-19   5.068e-19   -18.251   -18.295    -0.044     (0)  
+   H2CO3           2.644e-21   2.644e-21   -20.578   -20.578     0.000     (0)  
+Ca            2.419e-04
+   Ca+2            2.052e-04   1.369e-04    -3.688    -3.864    -0.176     (0)  
+   CaOH+           3.027e-05   2.750e-05    -4.519    -4.561    -0.042     (0)  
+   CaSO4           5.060e-06   5.060e-06    -5.296    -5.296     0.000     (0)  
+   CaNO3+          1.316e-06   1.173e-06    -5.881    -5.931    -0.050     (0)  
+   CaCO3           1.196e-14   1.196e-14   -13.922   -13.922     0.000     (0)  
+   CaHCO3+         3.300e-18   2.997e-18   -17.481   -17.523    -0.042     (0)  
+   CaNH3+2         0.000e+00   0.000e+00   -74.298   -74.497    -0.199     (0)  
+   Ca(NH3)2+2      0.000e+00   0.000e+00  -145.431  -145.631    -0.199     (0)  
+Cl            5.780e-04
+   Cl-             5.780e-04   5.224e-04    -3.238    -3.282    -0.044     (0)  
+   EuCl+2          8.451e-24   5.637e-24   -23.073   -23.249    -0.176     (0)  
+   EuCl2+          1.832e-27   1.656e-27   -26.737   -26.781    -0.044     (0)  
+Eu            5.739e-17
+   EuOH+2          5.738e-17   3.828e-17   -16.241   -16.417    -0.176     (0)  
+   Eu+3            5.479e-21   2.203e-21   -20.261   -20.657    -0.396     (0)  
+   EuCl+2          8.451e-24   5.637e-24   -23.073   -23.249    -0.176     (0)  
+   EuCl2+          1.832e-27   1.656e-27   -26.737   -26.781    -0.044     (0)  
+H(0)          0.000e+00
+   H2              0.000e+00   0.000e+00   -44.651   -44.650     0.001     (0)  
+Mg            2.500e-04
+   MgOH+           1.856e-04   1.688e-04    -3.731    -3.773    -0.041     (0)  
+   Mg+2            6.315e-05   4.212e-05    -4.200    -4.375    -0.176     (0)  
+   MgSO4           1.237e-06   1.237e-06    -5.908    -5.908     0.000     (0)  
+   MgCO3           1.931e-15   1.931e-15   -14.714   -14.714     0.000     (0)  
+   MgHCO3+         5.611e-19   5.068e-19   -18.251   -18.295    -0.044     (0)  
+N(-3)         0.000e+00
+   NH3             0.000e+00   0.000e+00   -70.734   -70.734     0.000     (0)  
+   NH4+            0.000e+00   0.000e+00   -73.443   -73.490    -0.046     (0)  
+   CaNH3+2         0.000e+00   0.000e+00   -74.298   -74.497    -0.199     (0)  
+   NH4SO4-         0.000e+00   0.000e+00   -76.209   -76.252    -0.043     (0)  
+   Ca(NH3)2+2      0.000e+00   0.000e+00  -145.431  -145.631    -0.199     (0)  
+N(3)          3.537e-16
+   NO2-            3.537e-16   3.185e-16   -15.451   -15.497    -0.045     (0)  
+N(5)          3.000e-03
+   NO3-            2.999e-03   2.710e-03    -2.523    -2.567    -0.044     (0)  
+   CaNO3+          1.316e-06   1.173e-06    -5.881    -5.931    -0.050     (0)  
+Na            2.121e-03
+   Na+             2.119e-03   1.915e-03    -2.674    -2.718    -0.044     (0)  
+   NaSO4-          1.830e-06   1.659e-06    -5.738    -5.780    -0.042     (0)  
+   NaCO3-          2.168e-15   1.966e-15   -14.664   -14.706    -0.042     (0)  
+   NaHCO3          1.266e-18   1.266e-18   -17.897   -17.897     0.000     (0)  
+O(0)          2.017e-03
+   O2              1.009e-03   1.011e-03    -2.996    -2.995     0.001     (0)  
+S(-2)         0.000e+00
+   S5-2            0.000e+00   0.000e+00  -145.297  -145.497    -0.199     (0)  
+   S6-2            0.000e+00   0.000e+00  -145.813  -146.013    -0.199     (0)  
+   S4-2            0.000e+00   0.000e+00  -145.893  -146.093    -0.199     (0)  
+   S3-2            0.000e+00   0.000e+00  -146.699  -146.898    -0.199     (0)  
+   S2-2            0.000e+00   0.000e+00  -147.715  -147.915    -0.199     (0)  
+   HS-             0.000e+00   0.000e+00  -148.082  -148.132    -0.050     (0)  
+   H2S             0.000e+00   0.000e+00  -153.112  -153.112     0.000     (0)  
+   S-2             0.000e+00   0.000e+00  -153.260  -153.432    -0.172     (0)  
+S(6)          2.500e-04
+   SO4-2           2.419e-04   1.613e-04    -3.616    -3.792    -0.176     (0)  
+   CaSO4           5.060e-06   5.060e-06    -5.296    -5.296     0.000     (0)  
+   NaSO4-          1.830e-06   1.659e-06    -5.738    -5.780    -0.042     (0)  
+   MgSO4           1.237e-06   1.237e-06    -5.908    -5.908     0.000     (0)  
+   HSO4-           1.743e-14   1.577e-14   -13.759   -13.802    -0.044     (0)  
+   NH4SO4-         0.000e+00   0.000e+00   -76.209   -76.252    -0.043     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Anhydrite        -3.30     -7.66   -4.36  CaSO4
+  Aragonite        -8.82    -17.12   -8.30  CaCO3
+  Artinite         -7.61      1.99    9.60  MgCO3:Mg(OH)2:3H2O
+  Brucite           2.78     19.62   16.84  Mg(OH)2
+  Calcite          -8.64    -17.12   -8.48  CaCO3
+  CH4(g)         -162.21   -203.26  -41.05  CH4
+  CO2(g)          -19.11    -37.26  -18.15  CO2
+  Dolomite(disordered) -18.22    -34.76  -16.54  CaMg(CO3)2
+  Dolomite(ordered) -17.67    -34.76  -17.09  CaMg(CO3)2
+  Epsomite         -6.04     -8.17   -2.13  MgSO4:7H2O
+  Eu(NO3)3:6H2O   -29.65    -28.36    1.29  Eu(NO3)3:6H2O
+  Eu(OH)2.5Cl.5    -4.85      7.70   12.55  Eu(OH)2.5Cl.5
+  Eu(OH)2Cl        -8.74      0.06    8.80  Eu(OH)2Cl
+  Eu(OH)3           0.00     15.34   15.34  Eu(OH)3
+  Eu2(CO3)3:3H2O  -44.21    -50.10   -5.89  Eu2(CO3)3:3H2O
+  Eu2(SO4)3:8H2O  -41.80    -52.69  -10.89  Eu2(SO4)3:8H2O
+  Eu2O3(cubic)    -21.09     30.69   51.77  Eu2O3
+  Eu2O3(monoclinic) -22.70     30.69   53.38  Eu2O3
+  EuCl3           -50.20    -30.50   19.70  EuCl3
+  EuCl3:6H2O      -35.39    -30.50    4.89  EuCl3:6H2O
+  EuOCl           -15.60      0.06   15.66  EuOCl
+  EuOHCO3         -14.11    -11.59    2.52  EuOHCO3
+  Fix_H+          -12.00    -12.00    0.00  H+
+  Fix_pe           -8.75     -8.75    0.00  e-
+  Gypsum           -3.05     -7.66   -4.61  CaSO4:2H2O
+  H2S(g)         -152.12   -160.13   -8.01  H2S
+  Halite           -7.60     -6.00    1.60  NaCl
+  Huntite         -40.06    -70.02  -29.97  CaMg3(CO3)4
+  Hydromagnesite  -42.15    -50.91   -8.77  Mg5(CO3)4(OH)2:4H2O
+  Lime            -12.56     20.14   32.70  CaO
+  Magnesite       -10.17    -17.63   -7.46  MgCO3
+  Mg(OH)2(active)   0.83     19.62   18.79  Mg(OH)2
+  Mirabilite       -8.12     -9.23   -1.11  Na2SO4:10H2O
+  Natron          -17.38    -18.70   -1.31  Na2CO3:10H2O
+  Nesquehonite    -12.96    -17.63   -4.67  MgCO3:3H2O
+  O2(g)            -0.09     83.00   83.09  O2
+  Periclase        -1.96     19.62   21.58  MgO
+  Portlandite      -2.67     20.14   22.80  Ca(OH)2
+  Sulfur         -116.49   -118.63   -2.14  S
+  Thenardite       -9.55     -9.23    0.32  Na2SO4
+  Thermonatrite   -19.33    -18.69    0.64  Na2CO3:H2O
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+------------------------------------
+Reading input data for simulation 2.
+------------------------------------
+
+----------------------------------
+End of Run after 0.227387 Seconds.
+----------------------------------
+
